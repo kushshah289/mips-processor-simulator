@@ -23,7 +23,7 @@ int main(int argc, char* argv[]){
     string predict;
     //config_params.open(argv[1]);
     config_params.open("config.txt");
-    //C:\Users\Kushu\Desktop\lab3
+    //C:\Users\Desktop\lab3
     while(!config_params.eof())  // read config file
     {
       config_params>>m;
@@ -45,7 +45,7 @@ int main(int argc, char* argv[]){
    
     traces.open("trace.txt");
     //tracesout.open(outname.c_str());
-    tracesout.open("C:\\Users\\Kushu\\Desktop\\lab3\\trace.txt.out");
+    tracesout.open("C:\\Users\\Desktop\\lab3\\trace.txt.out");
    
     string line;
     string result;  // the Read/Write access type from the memory trace;
